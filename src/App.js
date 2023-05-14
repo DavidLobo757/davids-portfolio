@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
       <Route  path="/" element={<TodoApp/>}/>
-      <Route exact path="/dashboard" element={<Dashboard/>}/>
+      <Route exact path="/dashboard" element={<Dashboard/>}/>//Change Routing methods
     </Routes>
   );
 }
